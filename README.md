@@ -7,7 +7,7 @@ Regulate in your developer console.
 
 ## Install
 
-1. Open [chrome://flags/#enable-devtools-experiments](chrome://flags/#enable-devtools-experiments) and enable the "Enable Developer Tools experiments" flag.
+1. Open chrome://flags/#enable-devtools-experiments and enable the "Enable Developer Tools experiments" flag.
 
 2. Open the developer console, click on the settings gear icon, and check the box next to "Allow custom UI themes"
 
@@ -17,7 +17,7 @@ Now, give your status codes some bling:
 
 1. Clone this repo: `git clone git@github.com:friej715/chrome-devtools-status-rappers.git`
 
-2. Open [chrome://extensions](chrome://extensions)
+2. Open chrome://extensions
 
 3. Make sure the box next to "Developer mode" is checked.
 
