@@ -1,0 +1,152 @@
+  .status-column {
+  overflow: visible !important;
+}
+  .status-column [title] {
+  overflow: visible !important;
+  position: relative !important;
+}
+  .status-column [title]::before {
+  border-color: transparent transparent #000 transparent !important;
+  border-style: solid !important;
+  border-width: 10px !important;
+  bottom: -10px !important;
+  height: 0 !important;
+  left: 10px !important;
+  width: 0 !important;
+}
+  .status-column [title]::after {
+  background: #000000 0 0 no-repeat scroll !important;
+  background-image: none !important;
+  background-size: contain !important;
+  bottom: -260px !important;
+  height: 250px !important;
+  left: 0 !important;
+  width: 325px !important;
+}
+  .status-column [title]::after,
+  .status-column [title]::before {
+  content: ' ' !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+  position: absolute !important;
+  transition: all 0.5s ease-out !important;
+  z-index: 1 !important;
+}
+  .status-column [title]:hover::after,
+  .status-column [title]:hover::before {
+  opacity: 1 !important;
+}
+  .status-column [title^="100 "]::after {
+  background-image: url(http://www.httpstatusrappers.com/images/100.png) !important;
+}
+  .status-column [title^="101 "]::after {
+  background-image: url(http://www.httpstatusrappers.com/images/101.png) !important;
+}
+  .status-column [title^="200 "]::after {
+  background-image: url(http://www.httpstatusrappers.com/images/200.png) !important;
+}
+  .status-column [title^="201 "]::after {
+  background-image: url(http://www.httpstatusrappers.com/images/201.png) !important;
+}
+  .status-column [title^="202 "]::after {
+  background-image: url(http://www.httpstatusrappers.com/images/202.png) !important;
+}
+  .status-column [title^="203 "]::after {
+  background-image: url(http://www.httpstatusrappers.com/images/203.png) !important;
+}
+  .status-column [title^="204 "]::after {
+  background-image: url(http://www.httpstatusrappers.com/images/204.png) !important;
+}
+  .status-column [title^="206 "]::after {
+  background-image: url(http://www.httpstatusrappers.com/images/206.png) !important;
+}
+  .status-column [title^="300 "]::after {
+  background-image: url(http://www.httpstatusrappers.com/images/300.png) !important;
+}
+  .status-column [title^="301 "]::after {
+  background-image: url(http://www.httpstatusrappers.com/images/301.png) !important;
+}
+  .status-column [title^="302 "]::after {
+  background-image: url(http://www.httpstatusrappers.com/images/302.png) !important;
+}
+  .status-column [title^="303 "]::after {
+  background-image: url(http://www.httpstatusrappers.com/images/303.png) !important;
+}
+  .status-column [title^="304 "]::after {
+  background-image: url(http://www.httpstatusrappers.com/images/304.png) !important;
+}
+  .status-column [title^="400 "]::after {
+  background-image: url(http://www.httpstatusrappers.com/images/400.png) !important;
+}
+  .status-column [title^="401 "]::after {
+  background-image: url(http://www.httpstatusrappers.com/images/401.png) !important;
+}
+  .status-column [title^="402 "]::after {
+  background-image: url(http://www.httpstatusrappers.com/images/402.png) !important;
+}
+  .status-column [title^="404 "]::after {
+  background-image: url(http://www.httpstatusrappers.com/images/404.png) !important;
+}
+  .status-column [title^="406 "]::after {
+  background-image: url(http://www.httpstatusrappers.com/images/406.png) !important;
+}
+  .status-column [title^="410 "]::after {
+  background-image: url(http://www.httpstatusrappers.com/images/410.png) !important;
+}
+  .status-column [title^="413 "]::after {
+  background-image: url(http://www.httpstatusrappers.com/images/413.png) !important;
+}
+  .status-column [title^="420 "]::after {
+  background-image: url(http://www.httpstatusrappers.com/images/420.png) !important;
+}
+  .status-column [title^="500 "]::after {
+  background-image: url(http://www.httpstatusrappers.com/images/500.png) !important;
+}
+  .status-column [title^="502 "]::after {
+  background-image: url(http://www.httpstatusrappers.com/images/502.png) !important;
+}
+  .status-column [title^="504 "]::after {
+  background-image: url(http://www.httpstatusrappers.com/images/504.png) !important;
+}
+  .status-column [title="Success"]::after,
+  .status-column [title="Success"]::before,
+  .status-column [title="(canceled)"]::after,
+  .status-column [title="(canceled)"]::before,
+  .status-column [title="(failed)"]::after,
+  .status-column [title="(failed)"]::before,
+  .status-column [title="(pending)"]::after,
+  .status-column [title="(pending)"]::before,
+  .status-column [title^="305 "]::after,
+  .status-column [title^="305 "]::before,
+  .status-column [title^="306 "]::after,
+  .status-column [title^="306 "]::before,
+  .status-column [title^="403 "]::after,
+  .status-column [title^="403 "]::before,
+  .status-column [title^="405 "]::after,
+  .status-column [title^="405 "]::before,
+  .status-column [title^="407 "]::after,
+  .status-column [title^="407 "]::before,
+  .status-column [title^="409 "]::after,
+  .status-column [title^="409 "]::before,
+  .status-column [title^="411 "]::after,
+  .status-column [title^="411 "]::before,
+  .status-column [title^="412 "]::after,
+  .status-column [title^="412 "]::before,
+  .status-column [title^="414 "]::after,
+  .status-column [title^="414 "]::before,
+  .status-column [title^="415 "]::after,
+  .status-column [title^="415 "]::before,
+  .status-column [title^="416 "]::after,
+  .status-column [title^="416 "]::before,
+  .status-column [title^="417 "]::after,
+  .status-column [title^="417 "]::before,
+  .status-column [title^="418 "]::after,
+  .status-column [title^="418 "]::before,
+  .status-column [title^="501 "]::after,
+  .status-column [title^="501 "]::before,
+  .status-column [title^="503 "]::after,
+  .status-column [title^="503 "]::before,
+  .status-column [title^="505 "]::after,
+  .status-column [title^="505 "]::before {
+  display: none !important;
+}
