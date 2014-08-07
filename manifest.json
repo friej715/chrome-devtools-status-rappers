@@ -1,10 +1,10 @@
 {
-   "author": "Jane Friedhoff",
+   "author": "Jane Friedhoff, Jacqui Maher",
    "default_locale": "en",
    "description": "A modified port of the awesome Status Rappers theme (https://gist.github.com/davidl/5251362) for Chrome DevTools >= v33.",
    "devtools_page": "devtools.html",
    "homepage_url": "https://github.com/friej715/chrome-devtools-status-rappers",
-   "manifest_version": 1,
+   "manifest_version": 2,
    "name": "Status Rappers DevTools Theme for Chrome 33",
-   "version": "1.0.0"
+   "version": "1.0.1"
 }
